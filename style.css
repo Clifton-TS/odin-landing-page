@@ -1,0 +1,35 @@
+* {
+    margin: 0; 
+    padding: 0;
+    font-family: roboto, sans-serif;
+  }
+
+.header {
+    background-color: #38110e;
+    display: flex;
+    padding: 1rem 10rem 1rem 10rem;
+    justify-content: space-between;
+}
+
+.header span {
+    display: flex;
+    font-size: 24px;
+    font-weight: 900;
+    color: #F9FAF8;
+    align-items: center;
+    margin: -10px;
+    gap: 1rem;
+}
+
+.header nav {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.header nav a {
+    color: #F9FAF8;
+    text-decoration: none;
+}
+
+/* * {border: solid red 1px;} */
