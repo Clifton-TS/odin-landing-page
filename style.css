@@ -174,10 +174,11 @@
 
 .call .container {
     display: flex;
+    flex: 0 1 1000px;
     background-color: #593F62;
     padding: 2rem 6rem 2rem 6rem;
     border-radius: 5px;
-    gap: 300px;
+    justify-content: space-between;
     align-items: center;
 }
 
