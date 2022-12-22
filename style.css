@@ -143,4 +143,26 @@
     padding-top: 10px;
 }
 
+.quote {
+    display: flex;
+    justify-content: center;
+    background-color: #b9bdb7;
+}
+.quote .container {
+    padding: 5rem;
+}
+
+.quote .container .quote-text {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 1;
+    color: #171204;
+}
+.quote .container .author {
+    font-weight: 910;
+    color: #171204;
+    font-size: large;
+    text-align: end;
+}
+
 /* * {border: solid red 1px;} */
