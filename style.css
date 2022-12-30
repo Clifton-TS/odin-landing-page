@@ -4,6 +4,12 @@
     font-family: roboto, sans-serif;
   }
 
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+} 
+
 .header {
     background-color: #231C07;
     display: flex;
@@ -191,6 +197,7 @@
     border: 2px solid #DADDD8;
     border-radius: 5px;
     padding: 10px 20px 10px 20px;
+    margin-left: 6rem;
 }
 
 .call .container button a {
